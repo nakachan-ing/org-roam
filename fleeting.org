@@ -1,0 +1,23 @@
+* Fleeting Notes
+** ZettelkastenのLiteratureとFleetingの境界線が自分の中で曖昧になっている
+- jMatsuzaki(https://jmatsuzaki.com/archives/28172)
+- morganeua(https://youtu.be/L9SLlxaEEXY?si=nu4oeke16yj3xLl)
+Entered on [2024-03-15 金 05:37]
+** デジタルとアナログの併用でZettelkastenを運用できないか？
+- 紙の本で読みたいし、紙の参考書で勉強することもある
+- もしくはそういうものも全てデジタルでやった方がいいのか？
+Entered on [2024-03-18 月 05:14]
+** 技術ノートをZettelkastenで取る方法は？
+- Webサイトからの引用
+- それを自分の言葉で言い換える
+- 引用元は消さずにURLとどの部分からの引用か段落を記載
+Entered on [2024-03-19 火 03:05]
+** MacOSにVMwareを入れて仮想環境を作って研修の予習した方がよさそう
+[[https://qiita.com/maejima2/items/25ccbab19ca5e93c0e7e][VMwareを使ってみた：MacbookでWindows10を使う]]
+[[https://www.digitalboo.net/post/13389/vmware-fusion-download-and-license][VMware Fusion Player 無償版 ダウンロードとライセンスキーの取得]]
+Entered on [2024-03-31 日 06:22]
+** オンプレのサーバは目の前に行かないと電源On、Offできないと思っていたが、DELL製品なら「iDRAC」その他製品でも遠隔操作できる差し込み口がある 
+Entered on [2024-04-03 水 12:27]
+** EC2インスタンスにDockerをインストールする
+- Dockerをインストールして、コンテナ上でApacheを起動して通信できるか確認したい
+Entered on [2024-04-11 木 16:18]
