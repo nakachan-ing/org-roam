@@ -13,7 +13,7 @@
   + 稼働中に使用される
 
 
-[[./img/2024-04-03 13.24.09-L2SW_configs.png]]
+![](img/img/2024-04-03 13.24.09-L2SW_configs.png)
 
 running-configの設定内容をstartup-configに反映させる場合は「特権モード」で ~write~ コマンドを実行する
 #+BEGIN_SRC

@@ -78,8 +78,8 @@ services:
 </html>
 #+END_SRC
 
-[[./img/2024-04-12 3.50.27-docker-nginx-dir.png]]
-[[./img/2024-04-12 3.49.24-docker-apache-dir.png]]
+![](img/img/2024-04-12 3.50.27-docker-nginx-dir.png)
+![](img/img/2024-04-12 3.49.24-docker-apache-dir.png)
 
 
 *3. コンテナを起動する*
@@ -87,7 +87,7 @@ services:
 docker compose up -d
 #+END_SRC
 
-[[./img/2024-04-12 3.47.32-docker-compose-up.png]]
+![](img/img/2024-04-12 3.47.32-docker-compose-up.png)
 
 
 *【参照】*

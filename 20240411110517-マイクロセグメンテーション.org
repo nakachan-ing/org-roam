@@ -22,7 +22,7 @@
 
 - ネットワーク1：192.168.0.1/27
 - ネットワーク2：192.168.0.32/27
-[[./img/2024-04-14 4.45.26-micro-segmentation_cidr.png]]
+![](img/img/2024-04-14 4.45.26-micro-segmentation_cidr.png)
 
 
 *【参照】*

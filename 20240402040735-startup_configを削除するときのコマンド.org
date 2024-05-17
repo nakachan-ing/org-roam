@@ -11,8 +11,8 @@
 ~# erase startup-config~
 （実体ファイルまで削除して初期化するコマンド）
 
-[[./img/2024-04-02 4.12.30-erase-command.png]]
-[[./img/2024-04-02 4.25.55-erase-startup-config.png]]
+![](img/img/2024-04-02 4.12.30-erase-command.png)
+![](img/img/2024-04-02 4.25.55-erase-startup-config.png)
 
 ~# delete startup-config~
 （実体ファイルまでは削除できない）
