@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       FF034A4F-F4C0-4554-893C-D47530CD1C6C
+:DATE:     2024-05-18
+:END:
+#+title: 【Index】Amazon-EC2
+
+このノートは、Amazon EC2に関する概要と重要な関連情報へのリンクを提供する。
+
+* Amazon EC2の概要
+Amazon EC2は、仮想的なサーバ環境を提供するサービス。
+
+* ポイント
+- 様々なソフトウェアの実行基盤として利用される。
+- ワークロードに応じた様々な種類のインスタンスタイプがある。
+- 複数の支払いオプションがある。
+- 適切な権限ポリシーを付与したIAMロールを設定する必要がある。
+
+* 重要な関連ノート
+- [[id:9351872A-1F0C-4AB5-9EE4-ADCEABCA475C][EC2：インスタンスタイプ]]
+- EC2：AMI
+- EC2：購入オプション
+- EC2：起動・接続方法
+
+* 参考リンク
+- [[https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/concepts.html][Amazon EC2 とは - Amazon Elastic Compute Cloud]]

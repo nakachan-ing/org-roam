@@ -15,3 +15,4 @@
 
 *【参照】*
 - [[https://www.cisco.com/c/ja_jp/td/docs/sw/lanswt-access/cat2960swt/cr/004/comref-book/intro.html][Catalyst 2960 スイッチ コマンド リファレンス, 12.2(50)SE - コマンドライン インターフェイス（CLI）の 使用 (Cisco Catalyst 2960 シリーズ スイッチ) - Cisco]]
+ff

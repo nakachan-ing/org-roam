@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       356F38DD-E2C5-48EA-8567-BC847F0984EB
+:DATE:     2024-05-18
+:END:
+#+title: 【Index】コンピューティング
+#+filetags: :@コンピューティング:@AWS:@Index:
+
+このノートは、アプリケーションやコンピューティング処理を実行するためのサーバ環境を提供するAWSサービスに関するノートのインデックスである。
+
+* サービス
+- [[id:FF034A4F-F4C0-4554-893C-D47530CD1C6C][【Index】Amazon-EC2]]
+- 【Index】AWS Lambda
+- 【Index】Amazon Lightsail
+- 【Index】AWS Local Zones
+- 【Index】AWS Wavelength
+- 【Index】AWS AppRunner
+- 【Index】AWS Batch
+- 【Index】Amazon EC2 Image Builder
+- 【Index】AWS Elastic Beanstalk
+- 【Index】AWS Outposts
+- 【Index】AWS Serverless Application Model
+- 【Index】AWS Serverless Application Repository
+- 【Index】AWS EMP for Windows Server

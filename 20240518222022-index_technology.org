@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       F337793E-F982-4B4E-9ACF-BE3655A1E93F
+:DATE:     2024-05-18
+:END:
+#+title: 【Index】Technology
+#+filetags: :@Tech:@Index:
+
+このノートは、技術に関するすべてのノートのインデックスとなる。
+
+* Sub Index
+- [[id:927457CA-09B1-4EED-AD47-BC24FBC9C87B][【Index】AWS]]
+- 【Index】Docker
+
+
+* その他の技術ノート
