@@ -12,9 +12,9 @@ VMware製品である「VMware vSphere®」の特長
   + ダウンタイムをゼロにしたい場合は、VMware FT(Fault Tolerance)を使用する
     - HAで構成されたホスト上の仮想マシンで有効
 
-![](img/2024-03-26_04-13-59_vmware_top_ha.gif)
+[[img/2024-03-26_04-13-59_vmware_top_ha.gif]]
 
-![](img/2024-04-17_04-30-04_HA-FT-16-2.jpg)
+[[img/2024-04-17_04-30-04_HA-FT-16-2.jpg]]
 
 
 - VMware vMotion
@@ -23,20 +23,20 @@ VMware製品である「VMware vSphere®」の特長
   + 負荷分散のために使用可能
   + *管理的に移行が必要なときに利用する(障害発生時に自動的に移動はしない)*
 
-![](img/2024-03-26_04-17-16_vmware_top_vmotion.gif)
+[[img/2024-03-26_04-17-16_vmware_top_vmotion.gif]]
 
 
 - VMware DRS(Distrubuted Resource Scheduler)
   + 仮想マシンのCPU、メモリ使用率を監視し、特定の物理サーバに負荷が集中した時に自動的にリソースが空いている別のサーバに移動させ全体最適化する
 
-![](img/2024-03-26_04-15-43_vmware_top_drs.gif)
+[[img/2024-03-26_04-15-43_vmware_top_drs.gif]]
 
 
 
 - VMware Storage vMotion
   + 稼働中の仮想マシンを停止させることなく、ディスクを移行することができる(vMotionのストレージ版)
 
-![](img/2024-03-26_04-16-56_vmware_top_storage_vmotion.gif)
+[[img/2024-03-26_04-16-56_vmware_top_storage_vmotion.gif]]
 
 
 
