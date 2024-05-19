@@ -21,6 +21,8 @@ EC2を使用して起動した仮想サーバを"インスタンス"と呼び、
   + CPUが必要?
   + メモリが必要?
 
-* 関連リンク
+* 関連ノート
 - [[id:FF034A4F-F4C0-4554-893C-D47530CD1C6C][【Index】Amazon-EC2]]
+
+* 関連リンク
 - [[https://aws.amazon.com/jp/ec2/instance-types/][インスタンスタイプ - Amazon EC2 | AWS]]

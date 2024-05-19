@@ -17,9 +17,10 @@ Amazon EC2は、仮想的なサーバ環境を提供するサービス。
 
 * 重要な関連ノート
 - [[id:9351872A-1F0C-4AB5-9EE4-ADCEABCA475C][EC2：インスタンスタイプ]]
-- EC2：AMI
-- EC2：購入オプション
-- EC2：起動・接続方法
-
+- [[id:F2B967AB-D6A6-4D42-B21A-D45C79831D59][EC2：AMI]]
+- [[id:F9AEB1B6-2724-4B39-B577-D940CEA810CC][EC2：購入オプション]]
+- [[id:BB7A3B5B-3413-4BAA-8637-B79BFDE9D75A][EC2：起動・接続方法]]
+- [[id:0E627869-936C-4F8F-B592-CF638B40E5C8][EC2：EC2-Auto-Scaling]]
+  
 * 参考リンク
 - [[https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/concepts.html][Amazon EC2 とは - Amazon Elastic Compute Cloud]]

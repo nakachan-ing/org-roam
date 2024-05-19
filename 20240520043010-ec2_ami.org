@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       F2B967AB-D6A6-4D42-B21A-D45C79831D59
+:DATE:     2024-05-20
+:END:
+#+title: EC2：AMI
+
+EC2のAmazon Machine Image(AMI)についてのノート。
+
+* 概要
+AMIは、EC2インスタンスを作成するために指定するテンプレートであり、ゲストOSのこと。
+
+* 主な種類
+- 公共のAMI(Amazon Linux, オープンソースの各種Linuxディストリビューション)
+- カスタムAMI(個人で作成したAMI)
+- マーケットプレイスAMI(サードパーティ製のAMI)
+
+* 関連ノート
+- [[id:FF034A4F-F4C0-4554-893C-D47530CD1C6C][【Index】Amazon-EC2]]
+
+* 関連リンク
+- [[https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/AMIs.html][Amazon マシンイメージ (AMI) - Amazon Elastic Compute Cloud]]

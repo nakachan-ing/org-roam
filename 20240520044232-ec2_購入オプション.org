@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       F9AEB1B6-2724-4B39-B577-D940CEA810CC
+:DATE:     2024-05-20
+:END:
+#+title: EC2：購入オプション
+
+EC2の購入オプションについてのノート。
+
+* 概要
+EC2インスタンスには復習の購入オプションがある。用途やコストに応じて適切なオプションを選択することが重要になる。
+
+* 主な購入オプション
+- オンデマンドインスタンス：従量課金性
+- リザーブドインスタンス：事前に予約することでディスカウント
+- スポットインスタンス：インスタンス購入時にAWSないで使用されていないインスタンスを時価で購入
+- Saving Plans：リザーブドインスタンスよりインスタンスタイプ・ファミリーの変更に柔軟に対応
+
+* 関連ノート
+- [[id:FF034A4F-F4C0-4554-893C-D47530CD1C6C][【Index】Amazon-EC2]]
+
+* 関連リンク
+- [[https://aws.amazon.com/jp/ec2/pricing/][Amazon EC2 の料金  |  AWS 公式]]
+- [[https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/instance-purchasing-options.html][インスタンス購入オプション - Amazon Elastic Compute Cloud]]

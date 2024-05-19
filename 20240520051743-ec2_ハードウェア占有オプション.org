@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       5A7210C6-7F3B-4EAD-9AE3-4EDFF3993D53
+:DATE:     2024-05-20
+:END:
+#+title: EC2：ハードウェア占有オプション
+
+インスタンス起動時に詳細設定で選択できるハードウェア占有オプションについてのノート。
+
+* 概要
+通常、EC2はAWSが管理するハードウェア上で実行されるハイパーバイザー上で複数のインスタンスが実行されている。そのため、一部ソフトウェアのライセンスが問題になったり、セキュリティ要件に抵触する可能性があることに配慮してオプションを選択する必要がある。
+
+* 主なオプション
+- 占有ハードウェアインスタンス：AWSアカウント単位でハードウェアを占有する
+- 占有ホスト：インスタンス起動単位でハードウェアを占有する
+
+* 参考リンク
+- [[id:BB7A3B5B-3413-4BAA-8637-B79BFDE9D75A][EC2：起動・接続方法]]
+- [[https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/dedicated-instance.html][Dedicated Instances - Amazon Elastic Compute Cloud]]
+- [[https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/dedicated-hosts-overview.html][Dedicated Hosts - Amazon Elastic Compute Cloud]]

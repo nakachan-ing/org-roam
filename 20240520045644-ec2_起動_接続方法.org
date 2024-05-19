@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       BB7A3B5B-3413-4BAA-8637-B79BFDE9D75A
+:DATE:     2024-05-20
+:END:
+#+title: EC2：起動・接続方法
+
+EC2インスタンスの起動と接続方法についてのノート。
+
+* 概要
+EC2インスタンスの起動は、マネジメントコンソールやAWC CLIを用いて実行する。以下マネジメントコンソールでの実行手順を説明。
+
+* 起動手順
+1. AMIの選択
+2. インスタンスタイプの選択
+3. インスタンス詳細設定
+4. ストレージ設定
+5. タグ設定
+6. セキュリティグループ設定
+7. キーペア設定
+
+* 接続手順
+SSHクライアントを使用して接続する
+#+BEGIN_SRC bash
+ssh -i "your-key-pair.pem" ec2-user@your-instance-public-dns
+#+END_SRC
+
+* 関連ノート
+- [[id:FF034A4F-F4C0-4554-893C-D47530CD1C6C][【Index】Amazon-EC2]]
+- [[id:5A7210C6-7F3B-4EAD-9AE3-4EDFF3993D53][EC2：ハードウェア占有オプション]]：「3. インスタンス詳細設定」時に選択可能なハードウェアについての詳細。
+- [[id:7C312C34-E051-4D2B-B225-C3D0C73A1059][EC2：プレースメントグループ]]：インスタンス起動時の戦略配置についての詳細。
+- [[id:F78D0A07-F1F6-4197-BB3D-C6ACA2C28A09][EC2のセキュリティグループでインターネットからのアクセスを許可する]]：マネジメントコンソール上でセキュリティグループを編集する手順についての詳細。
+  
+* 参考リンク
+- [[https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/connect.html][接続 - Amazon Elastic Compute Cloud]]

@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       0E627869-936C-4F8F-B592-CF638B40E5C8
+:END:
+#+title: EC2：EC2-Auto-Scaling
+
+EC2 Auto Scalingについてのノート。
+
+* 概要
+EC2 Auto ScalingはEC2インスタンスを需要に応じて自動的にインスタンスを増減させ、コストを最適化する。また、インスタンスに異常を発見すると切り離して新しいものと交換するため可用性が高まる。
+
+* 主な構成要素
+- Auto Scaling Group：Auto Scalingの設定単位。(配置するVPC, サブネット, インスタンスのmin・max, desired数, Svaing Plan, ヘルスチェック方法)
+- Launch Configuration・Lanuch Template：起動ルールを定めた設定。
+- Scaling Plan：インスタンスをスケールするルール
+
+* Scaling Planの種類
+- 最小台数の維持
+- 手動スケーリング
+- スケジューリング
+- 動的スケーリング
+- 予測スケーリング
+  
+* 関連ノート
+- [[id:FF034A4F-F4C0-4554-893C-D47530CD1C6C][【Index】Amazon-EC2]]
+
+* 参考リンク
+- [[https://docs.aws.amazon.com/ja_jp/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html][Amazon EC2 Auto Scaling とは - Amazon EC2 Auto Scaling]]
