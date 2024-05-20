@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       B3B039E8-E275-490F-A701-86705B2C89DE
+:END:
+#+title: 【Index】移行・転送サービス
+#+filetags: :@移行・転送サービス:@AWS:@Index:
+
+このノートは、オンプレミスシステムやレガシーなクラウドサービス環境から、モダンなAWSプラットフォームへ移行するためのサービスに関するノートのインデックスである。
+
+* サービス
+- 【Index】AWS Application Discovery Service
+- 【Index】AWS Application Migration Service
+- 【Index】AWS Database Migration Service
+- [[id:9AB102B7-39BE-41E1-982B-BA65AB1E2865][【Index】AWS-DataSync]]
+- 【Index】AWS Migration Hub

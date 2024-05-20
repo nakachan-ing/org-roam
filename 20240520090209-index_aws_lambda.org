@@ -24,7 +24,8 @@ AWS Lambdaは、コードをサーバレスで実行するためのサービス�
 - [[id:CE22C35C-EC6D-4884-9DF9-78BFCECFCC1A][Lambda：エイリアス]]：Lambda関数の別名に使用方法について説明したノート。
 - Lambda：Layers：Lambda関数のコードを減らすための機能"Layers"について説明したノート。
 - Lambda：Extensions：Layersを利用したLambdaの拡張機能について説明したノート。
-- Lambda：ベストプラクティス：Lambdaを使用する際に推奨されるベストプラクティスについてまとめたノート。
+- [[id:5DF820BE-7630-4843-B4B4-C6684A3BFE15][Lambda：ベストプラクティス]]：Lambdaを使用する際に推奨されるベストプラクティスについてまとめたノート。
+  
 * 参考リンク
 - [[https://aws.amazon.com/jp/lambda/][AWS Lambda（イベント発生時にコードを実行）| AWS]]
   

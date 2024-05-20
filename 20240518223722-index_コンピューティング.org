@@ -9,7 +9,7 @@
 
 * サービス
 - [[id:FF034A4F-F4C0-4554-893C-D47530CD1C6C][【Index】Amazon-EC2]]
-- 【Index】AWS Lambda
+- [[id:19F57018-34CC-491B-A11A-91088AD498A1][【Index】AWS-Lambda]]
 - 【Index】Amazon Lightsail
 - 【Index】AWS Local Zones
 - 【Index】AWS Wavelength
