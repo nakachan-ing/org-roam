@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       19F57018-34CC-491B-A11A-91088AD498A1
+:DATE:     2024-05-20
+:END:
+#+title: 【Index】AWS-Lambda
+
+このノートは、AWS Lambdaに関する概要と重要な関連情報へのリンクを提供する。
+
+* AWS Lambdaの概要
+AWS Lambdaは、コードをサーバレスで実行するためのサービス。
+
+* ポイント
+- サーバの構築や管理をAWSに任せることができる。
+- 開発者はアプリケーションの開発に集中できる。
+  
+* 重要な関連ノート
+
+* 参考リンク
+- [[https://aws.amazon.com/jp/lambda/][AWS Lambda（イベント発生時にコードを実行）| AWS]] 

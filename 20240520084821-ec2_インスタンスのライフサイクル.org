@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       984BC19E-555F-45E9-A318-7B23005151A4
+:DATE:     2024-05-20
+:END:
+#+title: EC2：インスタンスのライフサイクル
+
+Auto Scaling Gruopに組み込まれたインスタンスのライフサイクルについてのノート。
+
+* 概要
+Auto Scaling Gruopに組み込まれたインスタンスは、必ず何らかの"ステータス"が付与される。また、ステータスによって、実行されるイベントやアクションが異なる。
+
+* 主なステータス
+- Pending：インスタンスの起動・初期化の処理
+- InService：インスタンスが正常起動されている
+- Terminating：インスタンスの終了処理
+- Terminated：インスタンスが終了した状態
+- Detaching：ユーザ操作により、Auto Scaling Groupからデタッチ処理されている状態
+- Detached：インスタンスのデタッチが完了した状態
+- EnteringStandby：ユーザ操作により、"Standby"状態に移行されている状態
+- Standby：インスタンスがAuto Scaling Groupで管理されながらも一時的に削除されている状態
+
+* 関連ノート
+- [[id:0E627869-936C-4F8F-B592-CF638B40E5C8][EC2：EC2-Auto-Scaling]]
+
+* 参考リンク
+- [[https://docs.aws.amazon.com/ja_jp/autoscaling/ec2/userguide/lifecycle-hooks.html][Amazon EC2 Auto Scaling のライフサイクルフック - Amazon EC2 Auto Scaling]]

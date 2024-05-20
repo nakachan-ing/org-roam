@@ -22,6 +22,7 @@ EC2 Auto ScalingはEC2インスタンスを需要に応じて自動的にイン�
   
 * 関連ノート
 - [[id:FF034A4F-F4C0-4554-893C-D47530CD1C6C][【Index】Amazon-EC2]]
-
+- [[id:984BC19E-555F-45E9-A318-7B23005151A4][EC2：インスタンスのライフサイクル]]：Auto Scaling Groupに組み込まれたインスタンスのライフサイクルについての詳細。
+  
 * 参考リンク
 - [[https://docs.aws.amazon.com/ja_jp/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html][Amazon EC2 Auto Scaling とは - Amazon EC2 Auto Scaling]]
