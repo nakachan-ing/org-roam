@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       DF1F47E5-1B6C-493B-95F9-F0F29C40C297
+:DATE:     2025-05-20
+:END:
+#+title: 【Index】ネットワーキング・コンテンツ配信
+#+filetags: :@ネットワーキング・コンテンツ配信:@AWS:@Index:
+
+このノートは、AWS間／オンプレミス／インターネットとの通信やゲートウェイ、及びコンテンツ配信機能を提供するAWSサービスに関するノートのインデックスである。
+
+* サービス
+- 【Index】Amazon API Gateway
+- [[id:F3D0C762-D661-41F3-B4A1-1AB9A93D4019][【Index】Amazon-Route-53]]

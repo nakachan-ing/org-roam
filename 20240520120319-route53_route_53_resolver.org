@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       FB0CF317-A8E7-46D1-A92C-7460EA4BBCC9
+:DATE:     2025-05-20
+:END:
+#+title: Route53：Route-53-Resolver
+
+Route 53 Resolverについてのノート。
+
+* 概要
+Route 53 Resolverは、VPC内で標準装備されているDNSサーバ。オンプレミスやVPC内からの名前解決要求に応じて、パブリックホストゾーンやプライベートホストゾーンにフォワードする。
+
+* 使用方法
+- フォワードするドメインのルールとDNSサーバの対応づけを **インバウンド・アウトバウンドエンドポイント** として定義して名前解決を行う。
+- エンドポイントの実態はENI(Elastic Network Interface)。
+- ドメインに対して作成したルールは、AWS RAM(Resource Access Manager)で共有が可能。
+- 原則、VPC外からの直接的な名前解決要求は受け付けないため、VPC内に **インバウンドエンドポイント** を作成する必要がある。
+
+* 使用例
+- オンプレミスからの名前解決要求をインバウンドエンドポイントを通じてアクセスする。
+- AWS内のリソースからオンプレミスへの名前解決要求をアウトバウンドエンドポイントを通じてアクセスする。
+[[img/2024-05-20_12-21-15_Route 53 Resolver routing.png]]
+
+* 関連ノート
+- [[id:F3D0C762-D661-41F3-B4A1-1AB9A93D4019][【Index】Amazon-Route-53]]
+
+* 参考リンク
+- [[https://docs.aws.amazon.com/ja_jp/Route53/latest/DeveloperGuide/resolver.html][What is Amazon Route 53 Resolver? - Amazon Route 53]]
+

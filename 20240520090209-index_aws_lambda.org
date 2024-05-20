@@ -14,6 +14,17 @@ AWS Lambdaは、コードをサーバレスで実行するためのサービス�
 - 開発者はアプリケーションの開発に集中できる。
   
 * 重要な関連ノート
-
+- Lambda：Lambda関数：Lambda関数の概念と設定項目について説明したノート。
+- Lambda：ランタイム・実行環境：アプリケーションの実行に必要な環境について説明したノート。
+- Lambda：デプロイパッケージ：Lambda関数をビルドして作成したパッケージと種類についてまとめたノート。
+- Lambda：トリガー：Lambda関数を呼び出すリソースや設定について説明したノート。
+- Lambda：イベント：Lambda関数の呼び出し元から連携されるイベントについて説明したノート。
+- Lambda：同時実行数：実行中のLambda関数の数と上限についてまとめたノート。
+- Lambda：バージョン：Lambda関数のバージョニング管理について説明したノート。
+- [[id:CE22C35C-EC6D-4884-9DF9-78BFCECFCC1A][Lambda：エイリアス]]：Lambda関数の別名に使用方法について説明したノート。
+- Lambda：Layers：Lambda関数のコードを減らすための機能"Layers"について説明したノート。
+- Lambda：Extensions：Layersを利用したLambdaの拡張機能について説明したノート。
+- Lambda：ベストプラクティス：Lambdaを使用する際に推奨されるベストプラクティスについてまとめたノート。
 * 参考リンク
-- [[https://aws.amazon.com/jp/lambda/][AWS Lambda（イベント発生時にコードを実行）| AWS]] 
+- [[https://aws.amazon.com/jp/lambda/][AWS Lambda（イベント発生時にコードを実行）| AWS]]
+  

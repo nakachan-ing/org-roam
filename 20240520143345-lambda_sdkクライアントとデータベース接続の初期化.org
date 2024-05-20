@@ -1,0 +1,63 @@
+:PROPERTIES:
+:ID:       80674704-9D95-46EB-A014-E27222326D78
+:DATE:     2024-05-20
+:END:
+#+title: Lambda：SDKクライアントとデータベース接続の初期化
+
+関数ハンドラー外でSDKクライアントとデータベース接続を初期化する方法についてのノート。
+
+* 概要
+AWS Lambdaの実行環境が再利用される特性を活用して関数のパフォーマンスを向上させる方法である。また、一度起動した実行環境を再利用することで、コールドスタートの遅延を回避し、後続の呼び出しでリソースの初期化にかかる時間を削減することが可能。
+
+* ポイント
+- 関数ハンドラー外でSDKクライアントやデータベース接続を初期化することで、これらのリソースはLambda関数が初めて実行されるときに一度だけ作成される。その後の呼び出しでは再利用されるため初期化時間が短縮される。
+- AWS Lambdaは、一時的なストレージとして最大512MBの/tmpディレクトリを提供する。静的なアセットをキャッシュすることで、後続の呼び出しで同じデータを再度ロードする必要がなくなる。
+
+* 実装例(Python)
+#+BEGIN_SRC python
+import boto3
+import pymysql
+
+# 関数ハンドラー外でSDKクライアントとデータベース接続を初期化
+s3_client = boto3.client('s3')
+db_connection = pymysql.connect(
+    host='your-database-host',
+    user='your-database-user',
+    password='your-database-password',
+    db='your-database-name'
+)
+
+# 一時ファイルのキャッシュ
+STATIC_FILE_PATH = '/tmp/static_asset.txt'
+
+def initialize_static_asset():
+    if not os.path.exists(STATIC_FILE_PATH):
+        # 静的アセットをS3からダウンロードして/tmpに保存
+        s3_client.download_file('your-bucket-name', 'static_asset.txt', STATIC_FILE_PATH)
+
+initialize_static_asset()
+
+def lambda_handler(event, context):
+    # ここで、SDKクライアントとデータベース接続、およびキャッシュされたファイルを使用
+    with db_connection.cursor() as cursor:
+        cursor.execute('SELECT * FROM your_table')
+        result = cursor.fetchall()
+
+    with open(STATIC_FILE_PATH, 'r') as f:
+        static_data = f.read()
+
+    return {
+        'statusCode': 200,
+        'body': json.dumps({
+            'result': result,
+            'static_data': static_data
+        })
+    }
+#+END_SRC
+
+* 関連ノート
+- [[id:5DF820BE-7630-4843-B4B4-C6684A3BFE15][Lambda：ベストプラクティス]]
+
+* 参考リンク
+- [[https://techplay.jp/column/1787][PythonからMySQLに接続してデータベースを操作するには - TECH PLAY Magazine]]
+

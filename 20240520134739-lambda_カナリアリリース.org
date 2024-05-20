@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       2BDB0567-C123-4796-9514-63FF15486B2B
+:DATE:     2024-05-20
+:END:
+#+title: Lambda：カナリアリリース
+
+エイリアスを利用したカナリアリリースについてのノート。
+
+* 概要
+エイリアスには **加重エイリアス** があり、二つのバージョン間で割り当てた重みに基づいてトラフィックを分けることができる。加重エイリアスを使用することでカナリアリリースが可能となる。
+
+* 設定方法
+** マネジメントコンソールで設定する場合
+- エイリアス作成で加重エイリアスにバージョンを追加する(下図はバージョンを作成していないため、"none")。
+[[img/2024-05-20_13-57-30_EC2-Alarm-Status-Monitor Alias.png]]
+
+** AWS CLIで設定する場合
+- ~update-alias~ コマンドを使用して、~routing-config~ パラメータで加重エイリアスと重みを指定する。 
+#+BEGIN_SRC bash
+aws lambda update-alias \
+    --function-name testCanary \
+    --name Prod \
+    --function-version 2 \
+    --routing-config 'AdditionalVersionWeights={"3"=0.8}'
+#+END_SRC
+
+* 関連ノート
+- [[id:CE22C35C-EC6D-4884-9DF9-78BFCECFCC1A][Lambda：エイリアス]]
+
+* 参考リンク
+- [[https://qiita.com/oh-sky/items/1a817345df8604d26221][AWS Lambdaでカナリアリリースする #AWS - Qiita]]
