@@ -15,7 +15,8 @@ AWS DataSyncは、オンプレミスストレージとS3やEFS間のデータ移
   + AWSストレージ(S3, EFSサービス)
   + その他クラウドストレージ
 - タスクをスケジューリングして、増分転送が可能。
-
+- 暗号化・整合性の検証も可能。
+  
 * 使用例
 - データ発見
 - データ移行
@@ -27,7 +28,7 @@ AWS DataSyncは、オンプレミスストレージとS3やEFS間のデータ移
 - [[id:B3B039E8-E275-490F-A701-86705B2C89DE][【Index】移行・転送サービス]]
 - DataSync：Discovery：オンプレミスストレージに関する情報を収集する機能について説明したノート。
 - DataSync：データ転送：AWS DataSyncのデータ転送の仕組みについて説明したノート。
-- DataSync：接続方法：AWS DataSyncでサポートしている接続方法についてまとめたノート。
+- [[id:C42A4629-547B-4867-AB76-7665FFAB9175][DataSync：接続方法]]：AWS DataSyncでサポートしている接続方法についてまとめたノート。
   
 * 参考リンク
 - [[https://aws.amazon.com/jp/datasync/][AWS DataSync（シンプルかつ高速なオンラインデータ転送）| AWS]]

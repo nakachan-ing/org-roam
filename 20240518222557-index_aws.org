@@ -10,7 +10,7 @@
 * Sub Index
 - [[id:356F38DD-E2C5-48EA-8567-BC847F0984EB][【Index】コンピューティング]]
 - [[id:DF1F47E5-1B6C-493B-95F9-F0F29C40C297][【Index】ネットワーキング・コンテンツ配信]]
-- 【Index】ストレージ
+- [[id:FA74D43F-9910-4D4A-AB99-6C6B775FBAFD][【Index】ストレージ]]
 - 【Index】データベース
 - 【Index】アプリケーション統合
 - 【Index】コンテナ

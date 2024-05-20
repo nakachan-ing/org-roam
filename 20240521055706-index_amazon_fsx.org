@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       41CC49E3-314C-4148-A46B-F9EDAB401EE3
+:DATE:     2024-05-21
+:END:
+#+title: 【Index】Amazon-FSx
+
+このノートは、Amazon FSxに関する概要と重要な関連情報へのリンクを提供する。
+
+* 概要
+Amazon FSxは4つのファイルシステムに対応した、信頼性・セキュリティ・スケーラビリティを備えたクラウド上のファイルシステム。
+
+* ポイント
+- 以下4つのファイルシステムに対応している。
+  + NetApp ONTAP
+  + OpenZFS
+  + Windows ファイルサーバー
+  + Lustre
+
+* 重要な関連ノート
+- FSx：Amazon FSx for NetApp ONTAP
+- FSx：Amazon FSx for OpenZFS
+- FSx：Amazon FSx for Windows File Server：Windowsベースのワークロードに対応したFSxについて説明したノート。
+- FSx：Amazon FSx for Lustre
+
+* 参考リンク
+- [[https://aws.amazon.com/jp/fsx/?nc=sn&loc=1][Amazon FSx | 機能が豊富で高性能なファイルシステム | Amazon Web Services]]
+- [[https://aws.amazon.com/jp/fsx/when-to-choose-fsx/][Amazon FSx ファイルシステムの選択のサポート | Amazon Web Services]]

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       FA74D43F-9910-4D4A-AB99-6C6B775FBAFD
+:END:
+#+title: 【Index】ストレージ
+#+filetags: :@ストレージ:@AWS:@Index:
+
+このノートは、ストレージ、およびバックアップ、データ転送・移行機能を提供するサービスに関するノートのインデックスである。
+
+* サービス
+- 【Index】AWS Backup
+- 【Index】Amazon EBS
+- 【Index】Amazon EFS
+- 【Index】Amazon FSx
+- 【Index】Amazon S3
+- 【Index】Amazon S3 Glacier
+- 【Index】AWS Storage Gateway

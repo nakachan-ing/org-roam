@@ -7,11 +7,16 @@
 AWS DataSyncでサポートされている接続方法について説明したノート。
 
 * 概要
+AWS DataSyncは複数の接続方法をサポートしている。以下に接続方法を記載する。
 
 * 主な接続方法
 - インターネット経由：DataSyncエージェントをオンプレミス環境にデプロイして通信。
 - AWS Direct Connect：高速で信頼性の高いネットワークで効率的なデータ転送を実現する。
+- AWS PrivateLink：インターネット経由せずにVPCとプライベート接続してデータ転送を実現する。
 - VPN：セキュアな接続でDataSyncエージェントをAWSに接続してインターネット経由で通信。
-
+  
 * 関連ノート
 - DataSync：DataSyncエージェントの設定手順：インターネット経由でDataSyncを使用する場合の設定手順の詳細。
+
+* 参考リンク
+- [[https://aws.amazon.com/jp/datasync/faqs/][よくある質問 - AWS DataSync | AWS]]

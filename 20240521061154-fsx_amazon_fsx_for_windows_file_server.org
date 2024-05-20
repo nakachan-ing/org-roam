@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       2A747858-EC0D-4A73-933C-558CE98E86DC
+:DATE:     2024-05-21
+:END:
+#+title: FSx：Amazon-FSx-for-Windows-File-Server
+
+Amazon FSx for Windows File Serverについて説明したノート。
+
+* 概要
+Amazon FSx for Windows File ServerはWindows Server上に構築されたフルマネージド共有ストレージを提供し、幅広いデータアクセス、データ管理、およびデータ管理機能を提供する。
+
+
+* 主な利点
+- 高い耐久性と可用性。
+- ストレージコストを削減する。
+- データを保護する。
+- パフォーマンス向上。
+
+* ユースケース
+- WindowsファイルサーバをAWSに移行する。
+- ハイブリッドワークロードを加速する。
+- SQL Serverのデプロイコストを削減する。
+- 仮想デスクトップとストリーミングを簡素化する。
+
+
+* 関連ノート
+
+
+* 参考リンク
+- [[https://aws.amazon.com/jp/fsx/windows/][Amazon FSx for Windows File Server | クラウドファイルストレージ | Amazon Web Services]]
