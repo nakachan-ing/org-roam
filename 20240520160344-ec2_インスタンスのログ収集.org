@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       B4556457-5D22-4414-8A64-7DF6477B245D
+:DATE:     2024-05-20
+:END:
+#+title: EC2：インスタンスのログ収集
+
+Auto ScalingのグループのインスタンスのログをS3バケットにコピーする方法についてまとめたノート。
+
+* 概要
+Auto Scalingグループのインスタンスのログは、インスタンス終了時に失われるが、ライフサイクルフックの **待機状態** を利用するとログを退避することが可能となる。以下、退避の手法を記載する。
+
+* 主な手順
+1. ライフサイクルフックで、インスタンスが終了する前に待機状態にする。
+2. ライフサイクルフックの検知をトリガーとするEventBridgeルールを作成し、Lambda関数を起動する。
+3. Lambda関数でAWS SSM(AWS Systems Manager)ドキュメントを実行する。
+4. SSMドキュメントでログファイルをS3にコピーするスクリプトを実行し、CONTINUEをAuto Scalingグループに送信する。
+5. CONTINUEを受信したAuto Scalingグループはインスタンスのライフサイクルフックの待機を解除する。
+6. ライフサイクルフックが解除されたインスタンスは終了処理を再開する。
+
+* 関連ノート
+- [[id:984BC19E-555F-45E9-A318-7B23005151A4][EC2：インスタンスのライフサイクル]]
+
+
+* 参考リンク
+- [[https://docs.aws.amazon.com/ja_jp/autoscaling/ec2/userguide/tutorial-lifecycle-hook-lambda.html#lambda-add-lifecycle-hook][チュートリアル:Lambda 関数を呼び出すライフサイクルフックの設定 - Amazon EC2 Auto Scaling]]

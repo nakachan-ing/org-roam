@@ -21,6 +21,7 @@ Auto Scaling Gruopに組み込まれたインスタンスは、必ず何らか�
 
 * 関連ノート
 - [[id:0E627869-936C-4F8F-B592-CF638B40E5C8][EC2：EC2-Auto-Scaling]]
-
+- [[id:B4556457-5D22-4414-8A64-7DF6477B245D][EC2：インスタンスのログ収集]]：Auto ScalingのグループのインスタンスのログをS3バケットにコピーする方法についての詳細。
+  
 * 参考リンク
 - [[https://docs.aws.amazon.com/ja_jp/autoscaling/ec2/userguide/lifecycle-hooks.html][Amazon EC2 Auto Scaling のライフサイクルフック - Amazon EC2 Auto Scaling]]
