@@ -10,7 +10,7 @@
 - 【Index】AWS Backup
 - 【Index】Amazon EBS
 - 【Index】Amazon EFS
-- 【Index】Amazon FSx
+- [[id:41CC49E3-314C-4148-A46B-F9EDAB401EE3][【Index】Amazon-FSx]]
 - 【Index】Amazon S3
 - 【Index】Amazon S3 Glacier
 - 【Index】AWS Storage Gateway

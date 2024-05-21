@@ -9,6 +9,6 @@
 * サービス
 - 【Index】AWS Application Discovery Service
 - 【Index】AWS Application Migration Service
-- 【Index】AWS Database Migration Service
+- [[id:03623651-3E87-4DE9-940A-39B44682C85A][【Index】AWS-Database-Migration-Service]]
 - [[id:9AB102B7-39BE-41E1-982B-BA65AB1E2865][【Index】AWS-DataSync]]
 - 【Index】AWS Migration Hub
