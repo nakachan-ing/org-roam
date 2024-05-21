@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       03623651-3E87-4DE9-940A-39B44682C85A
+:DATE:     2024-05-21
+:END:
+#+title: 【Index】AWS-Database-Migration-Service
+
+このノートは、AWS Database Migration Service(DMS)に関する概要と関連情報へのリンクを提供する。
+
+* 概要
+AWS Database Migration ServiceはオンプレミスやEC2上に構築したデータベースなどからAWSのマネージドデータストア、Kinesis、MSKなどへデータを移行するサービス。
+
+* ポイント
+- 最小限のダウンタイムで移行が可能。
+- データ移行中の継続的レプリケーション。
+- 高い信頼性と自己修復性がある。
+
+* 使用例
+- [[id:8C4C2E03-9303-4467-AB8A-24D97D0B2339][DMS：データ分析環境のAWS移行]]：AWSへデータを移行する概要について具体例を示したノート。
+
+* 重要な関連ノート
+- DMS：使用可能なデータストア：ソースエンドポイントとして使用可能なデータベースについてまとめたノート。
+- DMS：
+
+
+* 参考リンク
+- [[https://aws.amazon.com/jp/dms/][AWS Database Migration Service（最小限のダウンタイムでデータベースを移行）| AWS]]
+

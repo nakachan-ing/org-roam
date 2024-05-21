@@ -19,7 +19,7 @@ Amazon FSxは4つのファイルシステムに対応した、信頼性・セキ
 * 重要な関連ノート
 - FSx：Amazon FSx for NetApp ONTAP
 - FSx：Amazon FSx for OpenZFS
-- FSx：Amazon FSx for Windows File Server：Windowsベースのワークロードに対応したFSxについて説明したノート。
+- [[id:2A747858-EC0D-4A73-933C-558CE98E86DC][FSx：Amazon-FSx-for-Windows-File-Server]]：Windowsベースのワークロードに対応したFSxについて説明したノート。
 - FSx：Amazon FSx for Lustre
 
 * 参考リンク

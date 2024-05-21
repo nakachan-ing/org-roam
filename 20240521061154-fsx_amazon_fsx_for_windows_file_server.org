@@ -22,9 +22,8 @@ Amazon FSx for Windows File ServerはWindows Server上に構築されたフル�
 - SQL Serverのデプロイコストを削減する。
 - 仮想デスクトップとストリーミングを簡素化する。
 
-
 * 関連ノート
-
+- [[id:41CC49E3-314C-4148-A46B-F9EDAB401EE3][【Index】Amazon-FSx]]
 
 * 参考リンク
 - [[https://aws.amazon.com/jp/fsx/windows/][Amazon FSx for Windows File Server | クラウドファイルストレージ | Amazon Web Services]]

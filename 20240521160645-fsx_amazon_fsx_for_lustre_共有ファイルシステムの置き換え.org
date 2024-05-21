@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       9C4E7945-D4A5-47ED-96D3-359F8BE19BD0
+:END:
+#+title: FSx：Amazon-FSx-for-Lustre：共有ファイルシステムの置き換え
+
+インスタンス上に構築された共有ファイルシステムのコストとパフォーマンスの最適化を実現する構成について説明したノート。
+
+* 概要
+EC2インスタンスは、データの保存や読み書きを行うストレージとしてはコストやパフォーマンスの観点から適切ではない。AWSでは低コストでデータを保存できるオブジェクトストレージや、読み書きのパフォーマンスに優れたファイルシステムを利用することが可能。
+
+* 主な構成
+- 共有ファイルシステムから、S3でデータを移行する。
+- 処理(定期ジョブ)実行前に、AWS FSx for Lustreを使用して、遅延読み込みを使うことでS3からデータをダウンロードして新しいファイルシステムを作成する。
+- 新しいファイルシステムを共有ストレージとして使用して、ジョブを実行する。
+- ジョブの実行が完了したらファイルシステムを削除する。
+
+* 関連ノート
+- [[id:4BD69800-BD1B-40A5-8893-F3EE6D94CFC0][FSx：Amazon-FSx-for-Lustre]]
+
+* 参考リンク
+- [[https://aws.amazon.com/jp/blogs/news/new-enhancements-for-moving-data-between-amazon-fsx-for-lustre-and-amazon-s3/][Amazon FSx for Lustre と Amazon S3 の間でデータを移動するための新しい機能強化 | Amazon Web Services ブログ]]

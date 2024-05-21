@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       4BD69800-BD1B-40A5-8893-F3EE6D94CFC0
+:DATE:     2024-05-21
+:END:
+#+title: FSx：Amazon-FSx-for-Lustre
+
+Amazon FSx for Lustreについて説明したノート。
+
+* 概要
+Amazon FSx for LustreはLustre ファイルシステムのスケーラビリティとパフォーマンスを備えたフルマネージド共有ストレージを提供する。
+
+* 主な利点
+- コンピューティングワークロードの加速。
+  + ミリ秒未満のレイテンシー。
+  + 最大数百GB/秒のスループット。
+  + 数百万のIOPS。
+- 高性能なファイルシステム(S3バケットにリンク可能)。
+- 様々なデプロイオプション。
+
+* ユースケース
+- 機械学習(S3にリンクされたデータへのアクセスでトレーニング時間の短縮)
+- ビッグデータの分析
+
+* 関連ノート
+- [[id:41CC49E3-314C-4148-A46B-F9EDAB401EE3][【Index】Amazon-FSx]]
+- [[id:9C4E7945-D4A5-47ED-96D3-359F8BE19BD0][FSx：Amazon-FSx-for-Lustre：共有ファイルシステムの置き換え]]：インスタンス上に構築された共有ファイルシステムに対してコストとパフォーマンスの最適化を実現する構成について説明したノート。
+
+* 参考リンク
+- [[https://aws.amazon.com/jp/fsx/lustre/][Amazon FSx for Lustre（フルマネージド型の演算集約型ファイルシステム）| AWS]]
